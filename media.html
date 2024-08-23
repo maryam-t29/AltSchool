@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #555;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        figcaption {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 10px;
+            color: #777;
+        }
+
+        audio {
+            display: block;
+            margin: 20px auto;
+        }
+
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>About Tunwase Maryam</h1>
+
+    <p>Hello! My name is Tunwase Maryam, a passionate individual pursuing a BSc in Computer Science. I am currently in my final year and doing an internship at Access Bank in the Network Operations/Engineering department. I love bead making, reading books, listening to music, and watching movies. I believe that the knowledge and skills I acquire will help me shape the future I desire.</p>
+
+    <figure>
+        <picture>
+            <source media="(min-width: 1024px)" srcset="images/large-image.jpg">
+            <source media="(min-width: 768px)" srcset="images/medium-image.jpg">
+            <source media="(min-width: 480px)" srcset="images/small-image.jpg">
+            <img src="images/fallback-image.jpg" alt="A representation of Tunwase Maryam's journey" style="max-width: 100%; height: auto;">
+        </picture>
+        <figcaption>A glimpse into my journey.</figcaption>
+    </figure>
+
+    <audio controls>
+        <source src="audio/message.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video controls>
+        <source src="video/intro.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+</body>
+</html>
